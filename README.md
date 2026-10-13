@@ -5,9 +5,11 @@
 
 [draw.io](https://github.com/jgraph/drawio) is a whiteboarding / diagramming software application. This project packages draw.io for Docker:
 
-* `jgraph/drawio`, a draw.io docker image that is always up-to-date with draw.io releases
+* `jgraph/drawio`, a draw.io docker image built from each draw.io release
 * a [docker-compose](docker-compose.yml) to run draw.io with the Google Drive, Microsoft OneDrive and GitLab integrations
 * a [docker-compose](nextcloud/) to run draw.io integrated within Nextcloud
+
+This image is a test version of draw.io, for evaluating draw.io and trying it out. A paid production version is available for production deployments.
 
 The separate export server image (`jgraph/export-server`) has reached end of life and is no longer built or configured by this project, see [Removed variables](#removed-variables).
 
